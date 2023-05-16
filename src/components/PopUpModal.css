@@ -1,0 +1,40 @@
+.popUpModal {
+  position: fixed;
+  bottom: 20px;
+  right: 100px;
+  background-color: #333;
+  color: #fff;
+  width: 350px;
+  height: 250px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.popUpModal .title {
+  padding: 10px;
+  overflow: hidden;
+}
+
+.popUpModal form {
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+}
+
+.popUpModal form .message {
+  flex: 1;
+}
+.popUpModal form input {
+  padding: 8px;
+  font-family: inherit;
+  border: none;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.popUpModal form input:focus {
+  outline: none;
+}
+.btn {
+  background-color: #333 !important;
+}

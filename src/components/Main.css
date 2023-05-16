@@ -1,0 +1,57 @@
+.main {
+  height: 100vh;
+  width: 100%;
+  flex: 0.75;
+}
+
+.main_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+.main_top svg {
+  margin: 0 10px;
+  color: gray;
+}
+
+.main_middle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  margin-left: 10px;
+}
+
+.main_middle .middle-item {
+  flex: 1;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.main_middle .middle-item svg {
+  color: gray;
+}
+.main_middle .primary {
+  border-bottom: 5px solid transparent;
+}
+.main_middle .social {
+  border-bottom: 5px solid transparent;
+}
+.main_middle .social:hover {
+  border-bottom: 5px solid rgb(33, 33, 110);
+  background-color: rgb(205, 205, 255);
+}
+.main_middle .promotions {
+  border-bottom: 5px solid transparent;
+}
+.main_middle .promotions:hover {
+  border-bottom: 5px solid rgb(44, 149, 153);
+  background-color: rgb(190, 253, 255);
+}
+.main_middle .primary.active {
+  border-bottom: 5px solid rgb(179, 38, 38);
+  background-color: rgb(255, 211, 211);
+}

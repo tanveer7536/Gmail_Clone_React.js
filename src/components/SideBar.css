@@ -1,0 +1,26 @@
+.sidebar {
+  padding: 1rem;
+}
+
+.sidebar .compose_btn {
+  background-color: #fff;
+  color: #000;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+.sidebar .compose_btn:hover {
+  opacity: 0.8;
+  background-color: white;
+}
+.sidebar_extra {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  margin: 0 auto;
+}
+.sidebar_extra svg {
+  color: gray;
+  margin: 5px;
+}

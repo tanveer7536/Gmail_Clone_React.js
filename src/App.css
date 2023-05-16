@@ -1,0 +1,16 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app_body {
+  display: flex;
+  align-items: center;
+}
+.app_body .sidebar {
+  flex: 0.25;
+  align-self: flex-start;
+}

@@ -1,0 +1,25 @@
+.sidebar_option {
+  width: 100%;
+  border-radius: 100000px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+}
+.sidebar_option:hover {
+  background-color: rgb(255, 172, 172);
+  color: rgb(112, 0, 0);
+  font-weight: bold;
+}
+.sidebar_option:hover .left svg {
+  color: rgb(112, 0, 0);
+}
+.sidebar_option .left {
+  display: flex;
+  align-items: center;
+}
+.sidebar_option .left svg {
+  color: gray;
+  margin-right: 10px;
+}
